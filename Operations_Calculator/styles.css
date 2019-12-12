@@ -1,0 +1,26 @@
+
+
+
+body {
+    background: #333;
+    background-size: cover;
+    color: #532827
+}
+
+#container {
+    width: 400px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 15px -8px #000;
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+}
+
+
+form {
+    text-align: left;
+}
+
+
