@@ -19,10 +19,10 @@ function calculateme(){
         operation = document.getElementById("operation4").value;
     }
 
-    if(isNaN(document.getElementById("operand1").value)){
+    if(isNaN(document.getElementById("operand1").value) || document.getElementById("operand1").value === ""){
         return window.alert("Please enter a valid number for operand 1."); 
     }
-    else if(isNaN(document.getElementById("operand2").value)){
+    else if(isNaN(document.getElementById("operand2").value) || document.getElementById("operand2").value === ""){
         return window.alert("Please enter a valid number for operand 2."); 
     }
 
