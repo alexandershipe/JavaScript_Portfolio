@@ -4,19 +4,24 @@ function calculateme(){
 
     if (document.getElementById("operation1").checked)
     {
-        operation = document.getElementById("operation1").value;
+        //operation = document.getElementById("operation1").value;
+        operation = $("#operation1").val();
     }
     if (document.getElementById("operation2").checked)
     {
-        operation = document.getElementById("operation2").value;
+        //operation = document.getElementById("operation2").value;
+        operation = $("#operation2").val();
     }
     if (document.getElementById("operation3").checked)
     {
-        operation = document.getElementById("operation3").value;
+        //operation = document.getElementById("operation3").value;
+        operation = $("#operation3").val();
+
     }
     if (document.getElementById("operation4").checked)
     {
-        operation = document.getElementById("operation4").value;
+        //operation = document.getElementById("operation4").value;
+        operation = $("#operation4").val();
     }
 
     if(isNaN(document.getElementById("operand1").value) || document.getElementById("operand1").value === ""){
