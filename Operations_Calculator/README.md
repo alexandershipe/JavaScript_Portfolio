@@ -1,4 +1,4 @@
-This is a basic operations calculator using HTML, JavaScript, and CSS
+This is a basic operations calculator using HTML, JavaScript, Jquery, and CSS
 
 The user can choose one of four operations: Addition, Subtraction, Multiplication, and Division.
 
